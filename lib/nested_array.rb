@@ -24,7 +24,7 @@ def assembled_matrix
   
   def assembled_matrix
   
-  newMatrix = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE] 
+  newMatrix = [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]  
 end
   
 end
