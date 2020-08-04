@@ -27,13 +27,19 @@ CONVENTIONAL_PRODUCE = [
 end
   
 
-def sorted_matrix
+
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   
-  
-end
+  def sorted_matrix_matrix
+  # Using Array literal syntax only, build a nested array that uses the data in
+  # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
+  # alphabetically by the first character.
+  sortedMatrix = [ORGANIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort]
+end 
+
+
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
