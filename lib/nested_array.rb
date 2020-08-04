@@ -33,9 +33,7 @@ end
   # However, this time, sort each internal array alphabetically by the first character
   
   def sorted_matrix
-  # Using Array literal syntax only, build a nested array that uses the data in
-  # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
-  # alphabetically by the first character.
+ 
   sorted_matrix = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]     
 end 
 
